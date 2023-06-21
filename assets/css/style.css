@@ -269,6 +269,9 @@ hr {
 }
 
 /*style for exercises*/
+#space-taken {
+    height: 500px;
+}
 
 #exercise-title {
     text-align: center;
@@ -296,4 +299,46 @@ hr {
     background: url('../images/gym1.jpg') no-repeat center transparent;
     color: rgb(27, 176, 4);
     font-size: 150%;
+}
+
+/*Style for sport*/
+
+#sport-text {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+}
+
+.small-cover {
+    width: 100%;
+    height: 400px;
+    background-color: #3a3a3a;
+    margin-top: 50px;
+    position: absolute;
+    left: 20%;
+    display: inline-block;
+}
+
+
+/*
+#right-about2 {
+    float: right;
+    margin: 0 auto;
+
+}*/
+
+.small-box {
+    width: 300px;
+    height: 400px;
+    /* margin: 10px;*/
+    box-shadow: -1px 0 10px #3a3a3a;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    display: flex;
 }
