@@ -117,7 +117,6 @@ body {
     background-position: center;
     background-size: 60%;
     height: 100%;
-    width: 100%;
     background-color: rgb(144, 47, 213);
 }
 
@@ -126,7 +125,6 @@ body {
     background-position: center;
     background-size: 60%;
     height: 100%;
-    width: 100%;
     background-color: rgb(144, 47, 213);
 }
 
@@ -135,7 +133,6 @@ body {
     background-position: center;
     background-size: 60%;
     height: 100%;
-    width: 100%;
     background-color: rgb(144, 47, 213);
 }
 
@@ -181,3 +178,16 @@ footer {
     color: black;
 }
 
+#structure {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    text-align: center;
+    margin: 100px 50px 0 50px;
+    height: 200px;
+    background-color: rgb(93, 218, 5);
+
+}
+
+#structure>ul {
+    padding-top: 10px;
+}
