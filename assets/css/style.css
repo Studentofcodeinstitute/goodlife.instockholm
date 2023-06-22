@@ -14,12 +14,17 @@ body {
 
 /* headings and logo */
 
+#cover-main-text {
+    font-family: 'Acme', sans-serif;
+    font-size: 250%;
+}
+
 #main-text {
     background: url(../images/living-a-healthy-lifestyle-with-values.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 400px;
-    font-size: 250%;
+    weight: 100%;
 }
 
 
@@ -317,17 +322,18 @@ hr {
 
 
 .small-box {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     margin: 10px;
     box-shadow: -1px 0 10px #3a3a3a;
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 100%;
 }
 
 img {
-    width: 300px;
+    width: 400px;
     height: 200px;
     display: flex;
 }
@@ -335,9 +341,92 @@ img {
 #sport-text {
     text-align: center;
     text-transform: uppercase;
-    font-size: 180%;
+    font-size: 150%;
 }
 
 #place-cover {
     height: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+    #main-text {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
+    }
+
+    #cover-main-text {
+        font-size: 200%;
+    }
+
+    #main-text {
+        width: 80%;
+        left: 0;
+    }
+
+    .height-position {
+        width: 80%;
+        float: left;
+    }
+
+    #box1 {
+        width: 80%;
+        position: absolute;
+        left: 40%;
+    }
+
+    #box2 {
+        width: 80%;
+        position: absolute;
+        left: 40%;
+    }
+
+    #box3 {
+        width: 80%;
+        position: absolute;
+        left: 40%;
+
+    }
+
+    #box4 {
+        width: 80%;
+        position: absolute;
+        left: 0%;
+        text-align: center;
+    }
+
+    #video {
+        width: 80%;
+        height: 80%;
+
+
+    }
+
+    .imagebox {
+        height: 80%;
+        width: 30%;
+
+    }
+
+    .content {
+        font-size: 85%;
+    }
+
+    footer {
+        width: 80%;
+        margin-top: 600px;
+        margin-bottom: 0;
+    }
 }
