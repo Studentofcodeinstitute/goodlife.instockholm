@@ -60,6 +60,8 @@ body {
     height: 300px;
 }
 
+
+
 #box1 {
     margin-top: 200px;
     position: absolute;
@@ -376,6 +378,9 @@ img {
         float: left;
     }
 
+
+
+
     #box1 {
         width: 80%;
         position: absolute;
@@ -403,8 +408,7 @@ img {
     }
 
     #video {
-        width: 80%;
-        height: 80%;
+        width: 100%;
 
 
     }
@@ -422,98 +426,7 @@ img {
 
     #club-drinks {
         width: 90%;
-        height: 12000px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-
-
-}
-
-@media screen and (max-width: 600px) {
-
-    #cover-main-text {
-        font-size: 150%;
-    }
-
-    #menu {
-        clear: left;
-        float: left;
-        font-size: 100%;
-
-    }
-
-    #box1 {
-        width: 100%;
-    }
-
-    #box2 {
-        width: 100%;
-    }
-
-
-    #box3 {
-        width: 100%;
-        position: absolute;
-        left: 40%;
-
-    }
-
-    #box4 {
-        width: 100%;
-    }
-
-    .imagebox {
         height: 100%;
-
-
-    }
-
-    .content {
-        font-size: 50%;
-
-    }
-
-    #structure {
-        height: 100%;
-        float: left;
-    }
-
-}
-
-@media screen and (max-width: 1200px) {
-
-    #main-text {
-        width: 100%;
-        left: 0;
-    }
-
-
-    #club-drinks {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #space-taken {
-        width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
 
@@ -522,463 +435,6 @@ img {
         margin: 0;
     }
 
-    #drinks-title {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #left-about1,
-    #right-about1 {
-        width: 100%;
-        float: left;
-        padding: 0;
-        text-align: center;
-    }
-
-
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300&family=Oswald:wght@200&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-body {
-    font-family: 'Acme', sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-}
-
-/* headings and logo */
-
-#cover-main-text {
-    font-family: 'Acme', sans-serif;
-    font-size: 250%;
-}
-
-#main-text {
-    background: url(../images/living-a-healthy-lifestyle-with-values.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}
-
-
-#menu {
-    background-color: rgb(226, 226, 241);
-    height: 50px;
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu li {
-    margin-top: 10px;
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/*Decoration of you box with their content and image*/
-
-.height-position {
-    height: 300px;
-}
-
-#box1 {
-    margin-top: 200px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    width: 1200px;
-    background-color: white;
-    box-shadow: 0 25px 30px rgb(0, 0, 0.5);
-    display: flex;
-}
-
-#box2 {
-    margin-top: 200px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    width: 1200px;
-    background-color: white;
-    box-shadow: 0 25px 30px rgb(0, 0, 0.5);
-    display: flex;
-}
-
-#box3 {
-    margin-top: 200px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    width: 1200px;
-    background-color: white;
-    box-shadow: 0 25px 30px rgb(0, 0, 0.5);
-    display: flex;
-}
-
-#box4 {
-    margin-top: 200px;
-    position: absolute;
-    left: 50%;
-    height: 500px;
-}
-
-.content {
-    width: 70%;
-    height: 100%;
-    background-color: rgb(18, 199, 199);
-    box-sizing: border-box;
-    border-left: 100px solid rgb(144, 47, 213);
-    border-bottom: 200px solid transparent;
-
-}
-
-.imagebox {
-    width: 30%;
-    height: 100%;
-    background-color: rgb(144, 47, 213);
-    box-sizing: border-box;
-
-}
-
-
-#image1 {
-    background: url('../images/steve-jobs-image-original.jpg') no-repeat;
-    background-position: center;
-    background-size: 60%;
-    height: 100%;
-    background-color: rgb(144, 47, 213);
-}
-
-#image2 {
-    background: url('../images/brian-tracy-image.jpg') no-repeat;
-    background-position: center;
-    background-size: 60%;
-    height: 100%;
-    background-color: rgb(144, 47, 213);
-}
-
-#image3 {
-    background: url('../images/Jim-Rohn-image.jpg') no-repeat;
-    background-position: center;
-    background-size: 60%;
-    height: 100%;
-    background-color: rgb(144, 47, 213);
-}
-
-.content>p {
-    margin-top: 20px;
-
-}
-
-#video {
-    position: absolute;
-    right: 20%;
-    width: 700px;
-    height: 400px
-}
-
-footer {
-    margin-top: 25%;
-    width: 100%;
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
-
-/*styling set goals html*/
-
-#goal-image {
-    background: url('../images/set-goal-mountain.webp') no-repeat;
-    background-size: cover;
-    height: 400px;
-    font-size: 280%;
-    color: black;
-    width: 100%;
-}
-
-#structure {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 180%;
-    text-align: center;
-    margin: 100px 50px 0 50px;
-    height: 200px;
-    background-color: rgb(93, 218, 5);
-
-}
-
-#structure>ul {
-    padding-top: 10px;
-    overflow: hidden;
-}
-
-/*have a good quality of drinks*/
-
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    /* to stay on center */
-}
-
-hr {
-    border-bottom: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align: right;
-}
-
-#drinks-title {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
-
-#club-drinks {
-    height: 600px;
-}
-
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    margin: 0 auto;
-    background-color: rgb(209, 141, 173);
-}
-
-#circle-cover-image {
-    background: url('../images/healthy\ drinks.jpg') no-repeat center center;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
-}
-
-/*style for exercises*/
-#space-taken {
-    height: 500px;
-}
-
-#exercise-title {
-    text-align: center;
-    margin-top: 200px;
-    font-size: 280%;
-}
-
-#left-about1 {
-    padding-top: 10px;
-    width: 40%;
-    float: left;
-    margin-left: 50px;
-    height: 300px;
-    background-color: rgb(136, 132, 8);
-    font-size: 150%;
-}
-
-#right-about1 {
-    padding-top: 10px;
-    float: right;
-    width: 40%;
-    margin-right: 50px;
-    height: 300px;
-    background-color: rgba(0, 0, 255, 0.7);
-    background: url('../images/gym1.jpg') no-repeat center transparent;
-    color: rgb(27, 176, 4);
-    font-size: 150%;
-}
-
-/*Style for sport*/
-
-.sport-content {
-    display: flex;
-    justify-content: center;
-}
-
-
-.small-box {
-    width: 400px;
-    height: 500px;
-    margin: 10px;
-    box-shadow: -1px 0 10px #3a3a3a;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 100%;
-}
-
-img {
-    width: 400px;
-    height: 200px;
-    display: flex;
-}
-
-#sport-text {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 150%;
-}
-
-#place-cover {
-    height: 300px;
-}
-
-
-@media screen and (max-width: 950px) {
-
-    #goal-image {
-        width: 100%;
-    }
-
-    #menu {
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-    }
-
-    #main-text {
-        left: 0;
-    }
-
-    .height-position {
-        width: 80%;
-        float: left;
-    }
-
-    #box1 {
-        width: 80%;
-        position: absolute;
-        left: 40%;
-    }
-
-    #box2 {
-        width: 80%;
-        position: absolute;
-        left: 40%;
-    }
-
-    #box3 {
-        width: 80%;
-        position: absolute;
-        left: 40%;
-
-    }
-
-    #box4 {
-        width: 80%;
-        position: absolute;
-        left: 0%;
-        text-align: center;
-    }
-
-    #video {
-        width: 80%;
-        height: 80%;
-
-
-    }
-
-    .imagebox {
-        height: 80%;
-        width: 30%;
-
-    }
-
-    .content {
-        font-size: 85%;
-    }
-
-
-    #club-drinks {
-        width: 90%;
-        height: 12000px;
-        margin: 0 auto;
-    }
 
     .left-about-heading,
     .right-about-heading {
@@ -996,6 +452,35 @@ img {
         text-align: center;
         padding: 0 20px;
     }
+
+
+    footer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+
+
+
+    /*
+    .social-networks {
+        text-align: center;
+    }
+
+    .social-networks>li {
+        display: inline;
+    }
+
+    /*  .social-networks i {
+             font-size: 160%;
+             margin: 1%;
+             padding: 5%;
+             color: #3a3a3a;
+         }*/
 
 
 }
@@ -1049,9 +534,26 @@ img {
         float: left;
     }
 
+    #club-drinks {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+
+
+
 }
 
 @media screen and (max-width: 1200px) {
+
+
+    #structure {
+        height: 100%;
+        float: left;
+    }
+
+
 
     #main-text {
         width: 100%;
@@ -1066,9 +568,11 @@ img {
     }
 
     #space-taken {
-        width: 65%;
+        width: 80%;
         height: 1200px;
         margin: 0 auto;
+        padding: 30px 0;
+        margin: 0;
     }
 
     #exercise-title {
@@ -1132,4 +636,30 @@ img {
         width: 100%;
         height: 100%;
     }
+
+
+
+    .social-networks>li {
+        display: flex;
+    }
+
+    .height-position {
+        width: 80%;
+        float: left;
+
+    }
+
+    #place-cover {
+        width: 80%;
+        height: 1200px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    #video {
+        width: 100%;
+
+
+    }
+
 }
