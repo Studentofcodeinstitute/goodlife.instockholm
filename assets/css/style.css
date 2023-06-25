@@ -7,9 +7,17 @@
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     font-family: 'Acme', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+}
+
+main {
+    flex-grow: 1;
 }
 
 /* headings and logo */
@@ -64,8 +72,7 @@ body {
 
 #box1 {
     margin-top: 200px;
-    position: absolute;
-    left: 50%;
+    margin-left: 50%;
     transform: translate(-50%, -50%);
     height: 200px;
     width: 1200px;
@@ -76,8 +83,7 @@ body {
 
 #box2 {
     margin-top: 200px;
-    position: absolute;
-    left: 50%;
+    margin-left: 50%;
     transform: translate(-50%, -50%);
     height: 200px;
     width: 1200px;
@@ -88,8 +94,7 @@ body {
 
 #box3 {
     margin-top: 200px;
-    position: absolute;
-    left: 50%;
+    margin-left: 50%;
     transform: translate(-50%, -50%);
     height: 200px;
     width: 1200px;
@@ -100,8 +105,8 @@ body {
 
 #box4 {
     margin-top: 200px;
-    position: absolute;
-    left: 50%;
+    /* /* margin-left: 5 */
+
     height: 500px;
 }
 
@@ -154,16 +159,18 @@ body {
 }
 
 #video {
-    position: absolute;
-    right: 20%;
+
     width: 700px;
-    height: 400px
+    height: 400px;
+    margin-left: 0;
 }
+
 
 footer {
     margin-top: 25%;
     width: 100%;
     height: 150px;
+
 }
 
 .social-networks {
@@ -353,6 +360,7 @@ img {
 }
 
 #place-cover {
+    margin-top: 10%;
     height: 300px;
 }
 
@@ -375,40 +383,33 @@ img {
 
     .height-position {
         width: 80%;
-        float: left;
+        /* /* float: le */
+
     }
-
-
-
 
     #box1 {
         width: 80%;
-        position: absolute;
-        left: 40%;
+
     }
 
     #box2 {
         width: 80%;
-        position: absolute;
-        left: 40%;
+
     }
 
     #box3 {
         width: 80%;
-        position: absolute;
-        left: 40%;
+
 
     }
 
     #box4 {
-        width: 80%;
-        position: absolute;
-        left: 0%;
         text-align: center;
     }
 
     #video {
         width: 100%;
+
 
 
     }
@@ -453,13 +454,17 @@ img {
         padding: 0 20px;
     }
 
-
+    /*
     footer {
         width: 100%;
         height: 100%;
-        display: flex;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        /*  display: flex;
         align-items: center;
-    }
+}*/
 
 
 
@@ -509,8 +514,7 @@ img {
 
     #box3 {
         width: 100%;
-        position: absolute;
-        left: 40%;
+
 
     }
 
@@ -541,11 +545,26 @@ img {
     }
 
 
-
+    .small-box p {
+        font-size: large;
+    }
 
 }
 
 @media screen and (max-width: 1200px) {
+
+
+    body {
+        min-height: 100%;
+        display: flex;
+
+    }
+
+    main {
+        flex-grow: 0;
+    }
+
+
 
 
     #structure {
@@ -563,16 +582,13 @@ img {
 
     #club-drinks {
         width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
 
     #space-taken {
         width: 80%;
-        height: 1200px;
         margin: 0 auto;
         padding: 30px 0;
-        margin: 0;
     }
 
     #exercise-title {
@@ -596,6 +612,7 @@ img {
         width: 100%;
         display: flex;
         margin-left: 0;
+        font-size: large;
     }
 
     #right-about1 {
@@ -604,14 +621,15 @@ img {
         padding: 0;
         text-align: center;
         margin-top: 10px;
+        font-size: large;
     }
 
 
 
     #center-about {
         clear: both;
-        width: 100;
-        float: left;
+        width: 100%;
+        display: flex;
         padding: 0;
     }
 
@@ -621,7 +639,7 @@ img {
     }
 
     .small-box {
-        width: 80%;
+        width: 100%;
         float: left;
         padding: 0;
         text-align: center;
@@ -630,6 +648,7 @@ img {
 
     .small-box p {
         height: 100%;
+        font-size: small;
     }
 
     img {
@@ -639,14 +658,14 @@ img {
 
 
 
-    .social-networks>li {
-        display: flex;
-    }
+
 
     .height-position {
+        margin: auto;
+        margin-top: 10%;
         width: 80%;
-        float: left;
-
+        height: unset;
+        margin-bottom: 50px;
     }
 
     #place-cover {
@@ -658,7 +677,6 @@ img {
 
     #video {
         width: 100%;
-
 
     }
 
