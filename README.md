@@ -25,3 +25,17 @@ Second page contain;
 2.Navigation bar.
 
 ![alt text](assets/images/second-page.png)
+
+3.Represent some activity that can help to set main goals;
+
+4.It's a good habit to have good drinks at the morning.
+
+![alt text](assets/images/representation-drinks.png)
+
+5. Second option is exercises. Represent two types of exercises;
+
+![alt text](assets/images/representation-exercises.png)
+
+6. Third option is sports. Represent three types of sports;
+
+![alt text](assets/images/representation-sport.png)
