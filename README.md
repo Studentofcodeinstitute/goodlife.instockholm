@@ -32,7 +32,7 @@ Second page contain;
 
 ![alt text](assets/images/representation-drinks.png)
 
-5. Second option is exercises. Represent two types of exercises;
+5. Second option is exercises. Represent two way to do exercises;
 
 ![alt text](assets/images/representation-exercises.png)
 
