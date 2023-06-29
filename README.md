@@ -51,3 +51,15 @@ Second page contain;
 2. Contain footer.
 
 ![alt text](assets/images/contact-page.png)
+
+## Validator Testing
+
+1. HTML
+   No errors were returned when passing through the official W3C validator.
+
+2. CSS
+   No errors were found when passing through the official (Jigsaw) validator.
+
+# content
+
+1. (https://www.google.com/search?q=steve+jobs+speech+about+life&sxsrf=APwXEdcO7y6NV9DWvOF1pMr_q6CaqaudoQ%3A1688075419872&ei=m_ydZPflNKioxc8Pm72fyA4&oq=steve&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgQIIxAnMgcIIxCKBRAnMgcIIxCKBRAnMggIABCKBRCRAjIICAAQigUQkQIyCgguEIAEEBQQhwIyCwguEIAEEMcBENEDMgoILhCABBAUEIcCMgUILhCABDIFCC4QgAQ6CggAEEcQ1gQQsAM6BwgjEOoCECc6BwguEOoCECc6BwguEIoFEEM6BwgAEIoFEEM6DQguEIoFEMcBENEDEEM6BwguEIoFECc6CgguEIoFENQCEENKBAhBGABQ3gVYgD1gr1JoBXABeAKAAV-IAdATkgECMzeYAQCgAQGwAQrAAQHIAQg&sclient=gws-wiz-serp)
