@@ -39,3 +39,15 @@ Second page contain;
 6. Third option is sports. Represent three types of sports;
 
 ![alt text](assets/images/representation-sport.png)
+
+## Footer
+
+![alt text](assets/images/footer-image.png)
+
+## Last page
+
+1. This is a contact page where all of three element required;
+
+2. Contain footer.
+
+![alt text](assets/images/contact-page.png)
