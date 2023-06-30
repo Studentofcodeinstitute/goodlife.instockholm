@@ -4,31 +4,31 @@
 
 ![alt text](assets/images/Screenshot-of-website.png)
 
-## Reprentation of first page
+## Representation of first page
 
 First page contain;
 
-1.A picture to give a inspiration for better life titled "good life in Stockholm"
+1. A picture to give a inspiration for better life titled "good life in Stockholm"
 
-2.Four most popular and important figures, represent powerful self development skills.
+2. Four most popular and important figures, represent powerful self development skills.
 
-3.Navigation bar.
+3. Navigation bar.
 
 ![alt text](assets/images/first-page.png)
 
-## Represent of second page
+## Representation of second page
 
 Second page contain;
 
-1.A picture to give a inspiration to set goals.
+1. A picture to inspire to set goals.
 
-2.Navigation bar.
+2. Navigation bar.
 
 ![alt text](assets/images/second-page.png)
 
-3.Represent some activity that can help to set main goals;
+3. Represent some activity that can help to set main goals;
 
-4.It's a good habit to have good drinks at the morning.
+4. It's a good habit to have good drinks at the morning.
 
 ![alt text](assets/images/representation-drinks.png)
 
@@ -61,7 +61,12 @@ Second page contain;
    No errors were found when passing through the official (Jigsaw) validator.
 
 3. Accessibility
+
    ![alt text](assets/images/Accessibility.png)
+
+# Unfixed Bugs
+
+I would like to give better position to all images. With images i could not do as I had expected, Because in the end of the project i realised; all images nested html file wasn't showing. I have to replace them inside stylesheet. It wasn't possible to contact tutor cause of short time. Accept my apologies.
 
 # deployment
 
