@@ -130,25 +130,25 @@ main {
 
 
 #image1 {
-    /* background: url('../images/steve-jobs-image-original.jpg') no-repeat;*/
+    background: url('../images/steve-jobs-image-original.jpg') no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 60%;
     height: 100%;
     background-color: rgb(144, 47, 213);
 }
 
 #image2 {
-    /* background: url('../images/brian-tracy-image.jpg') no-repeat;*/
+    background: url('../images/brian-tracy-image.jpg') no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 60%;
     height: 100%;
     background-color: rgb(144, 47, 213);
 }
 
 #image3 {
-    /* background: url('../images/Jim-Rohn-image.jpg') no-repeat;*/
+    background: url('../images/Jim-Rohn-image.jpg') no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 60%;
     height: 100%;
     background-color: rgb(144, 47, 213);
 }
