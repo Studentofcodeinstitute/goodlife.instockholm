@@ -60,6 +60,9 @@ Second page contain;
 2. CSS
    No errors were found when passing through the official (Jigsaw) validator.
 
+3. Accessibility
+   ![alt text]()
+
 # deployment
 
 The live link can be found here - https://studentofcodeinstitute.github.io/goodlife.instockholm/
