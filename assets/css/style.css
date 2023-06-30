@@ -350,10 +350,34 @@ hr {
     font-size: 100%;
 }
 
-img {
-    width: 400px;
-    height: 200px;
-    display: flex;
+#football-image {
+    background: url('../images/Football-content.png') no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    height: 50%;
+    display: cover;
+}
+
+#swimming-image {
+    background: url('../images/swimming-image.jpg') no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    height: 50%;
+    display: cover;
+}
+
+#skiing-image {
+    background: url('../images/ski-content.jpg') no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    height: 50%;
+    display: cover;
 }
 
 #sport-text {
@@ -721,11 +745,11 @@ img {
         font-size: small;
     }
 
-    img {
+    /* #football-image {
         width: 100%;
-        height: 100%;
-    }
 
+    }
+*/
 
 
 
