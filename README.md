@@ -60,6 +60,10 @@ Second page contain;
 2. CSS
    No errors were found when passing through the official (Jigsaw) validator.
 
+# deployment
+
+The live link can be found here - https://studentofcodeinstitute.github.io/goodlife.instockholm/
+
 # content
 
 1. Steve Jobs; (https://www.google.com/search?q=steve+jobs+speech+about+life&sxsrf=APwXEdcO7y6NV9DWvOF1pMr_q6CaqaudoQ%3A1688075419872&ei=m_ydZPflNKioxc8Pm72fyA4&oq=steve&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgQIIxAnMgcIIxCKBRAnMgcIIxCKBRAnMggIABCKBRCRAjIICAAQigUQkQIyCgguEIAEEBQQhwIyCwguEIAEEMcBENEDMgoILhCABBAUEIcCMgUILhCABDIFCC4QgAQ6CggAEEcQ1gQQsAM6BwgjEOoCECc6BwguEOoCECc6BwguEIoFEEM6BwgAEIoFEEM6DQguEIoFEMcBENEDEEM6BwguEIoFECc6CgguEIoFENQCEENKBAhBGABQ3gVYgD1gr1JoBXABeAKAAV-IAdATkgECMzeYAQCgAQGwAQrAAQHIAQg&sclient=gws-wiz-serp)
