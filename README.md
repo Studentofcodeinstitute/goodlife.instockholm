@@ -61,7 +61,7 @@ Second page contain;
    No errors were found when passing through the official (Jigsaw) validator.
 
 3. Accessibility
-   ![alt text]()
+   ![alt text](assets/images/Accessibility.png)
 
 # deployment
 
