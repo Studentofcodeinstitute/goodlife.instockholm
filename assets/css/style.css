@@ -20,7 +20,6 @@ main {
     flex-grow: 1;
 }
 
-/* headings and logo */
 
 #cover-main-text {
     font-family: 'Acme', sans-serif;
@@ -62,7 +61,6 @@ main {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*Decoration of you box with their content and image*/
 
 .height-position {
     height: 300px;
@@ -105,8 +103,6 @@ main {
 
 #box4 {
     margin-top: 200px;
-    /* /* margin-left: 5 */
-
     height: 500px;
 }
 
@@ -191,8 +187,6 @@ footer {
 }
 
 
-/*styling set goals html*/
-
 #goal-image {
     background: url('../images/set-goal-mountain.webp') no-repeat;
     background-size: cover;
@@ -217,7 +211,6 @@ footer {
     overflow: hidden;
 }
 
-/*have a good quality of drinks*/
 
 
 #left-about {
@@ -235,7 +228,6 @@ footer {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    /* to stay on center */
 }
 
 hr {
@@ -297,7 +289,7 @@ hr {
     border-radius: 50%;
 }
 
-/*style for exercises*/
+
 #space-taken {
     height: 500px;
 }
@@ -326,12 +318,10 @@ hr {
     margin-right: 50px;
     height: 300px;
     background-color: rgba(26, 73, 241, 0.7);
-    /* background: url('../images/gym1.jpg') no-repeat center transparent;*/
     color: black;
     font-size: 150%;
 }
 
-/*Style for sport*/
 
 .sport-content {
     display: flex;
@@ -377,11 +367,6 @@ hr {
     height: 50%;
 }
 
-/*img {
-    width: 400px;
-    height: 200px;
-    display: flex;
-}*/
 
 #sport-text {
     text-align: center;
@@ -395,7 +380,6 @@ hr {
     height: 300px;
 }
 
-/*Form*/
 
 
 #whole-form {
@@ -554,38 +538,6 @@ hr {
         padding: 0 20px;
     }
 
-    /*
-    footer {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        /*  display: flex;
-        align-items: center;
-}*/
-
-
-
-
-
-
-    /*
-    .social-networks {
-        text-align: center;
-    }
-
-    .social-networks>li {
-        display: inline;
-    }
-
-    /*  .social-networks i {
-             font-size: 160%;
-             margin: 1%;
-             padding: 5%;
-             color: #3a3a3a;
-         }*/
 
 
 }
@@ -747,14 +699,6 @@ hr {
         height: 100%;
         font-size: small;
     }
-
-    /* #football-image {
-        width: 100%;
-
-    }
-*/
-
-
 
 
     .height-position {
