@@ -126,11 +126,16 @@ main {
 
 
 #image1 {
-    background: url('../images/steve-jobs-image-original.jpg') no-repeat;
+    /* background: url('../images/steve-jobs-image-original.jpg') no-repeat;*/
     background-position: center;
     background-size: 60%;
     height: 100%;
     background-color: rgb(144, 47, 213);
+}
+
+img {
+    width: 400px;
+    height: 200px;
 }
 
 #image2 {
@@ -467,8 +472,6 @@ hr {
 
     .height-position {
         width: 80%;
-
-
     }
 
     #box1 {
@@ -734,6 +737,10 @@ hr {
         display: none;
     }
 
+    img {
+        height: 100%;
+        width: 100%;
+    }
 
 
 }
