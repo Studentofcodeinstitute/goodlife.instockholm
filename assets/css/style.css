@@ -139,7 +139,7 @@ img {
 }
 
 #image2 {
-    background: url('../images/brian-tracy-image.jpg') no-repeat;
+    /* background: url('../images/brian-tracy-image.jpg') no-repeat;*/
     background-position: center;
     background-size: 60%;
     height: 100%;
@@ -147,7 +147,7 @@ img {
 }
 
 #image3 {
-    background: url('../images/Jim-Rohn-image.jpg') no-repeat;
+    /*  background: url('../images/Jim-Rohn-image.jpg') no-repeat;*/
     background-position: center;
     background-size: 60%;
     height: 100%;
